@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    text-align: left;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.calculateButton {
+    background-color: rosybrown;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.calculateButton:hover {
+    background-color: brown;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
